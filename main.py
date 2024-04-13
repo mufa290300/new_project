@@ -16,5 +16,10 @@ my_map_2 = {
 }
 
 if __name__ == '__main__':
-     my_map.update(my_map_2)
-     print(my_map)
+     #my_map.update(my_map_2)
+     #print(my_map)
+     number = float(number)
+     print(number,'=>',type(number))
+     number_2 = int(number_2)
+     print(number_2,'=>',type(number_2))
+
