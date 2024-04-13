@@ -15,11 +15,25 @@ my_map_2 = {
      'Key_5': 5
 }
 
+studentDb = {
+     '01': {
+          'name': 'Mufa',
+          'age': 24,
+          'hobi': ['Renang', 'Futsal']
+     },
+     '02': {
+          'name': 'Zidan',
+          'age': 22,
+          'hobi': ['Game', 'Gym']
+     },
+}
+
 if __name__ == '__main__':
      #my_map.update(my_map_2)
      #print(my_map)
-     number = float(number)
-     print(number,'=>',type(number))
-     number_2 = int(number_2)
-     print(number_2,'=>',type(number_2))
+     #number = float(number)
+     #print(number,'=>',type(number))
+     #number_2 = int(number_2)
+     #print(number_2,'=>',type(number_2))
+     print(studentDb['01']['hobi'])
 
