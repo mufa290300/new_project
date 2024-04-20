@@ -28,12 +28,24 @@ studentDb = {
      },
 }
 
+def say_hello(to='Mufa', receiver='Zidan'):
+     print(f'Hello {to}, my friend, i am {receiver}.')
+
+class students:
+     def __init__(self, name=''):
+          self.name = name
+     
+     def say_hello(self):
+          print(f'Hello my name is {self.name}')
+          
+      
+
 if __name__ == '__main__':
-     #my_map.update(my_map_2)
-     #print(my_map)
-     #number = float(number)
-     #print(number,'=>',type(number))
-     #number_2 = int(number_2)
-     #print(number_2,'=>',type(number_2))
-     print(studentDb['01']['hobi'])
+
+     student = students(name='Mufa')
+     student.say_hello()
+     student = students(name='Zidan')
+     student.say_hello()
+
+     
 
