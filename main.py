@@ -38,4 +38,24 @@ if __name__ == '__main__':
      #number_2 = int(number_2)
      #print(number_2,'=>',type(number_2))
      print(studentDb['01']['hobi'])
+def say_hello(to='Mufa', receiver='Zidan'):
+     print(f'Hello {to}, my friend, i am {receiver}.')
+
+class students:
+     def __init__(self, name=''):
+          self.name = name
+     
+     def say_hello(self):
+          print(f'Hello my name is {self.name}')
+          
+      
+
+if __name__ == '__main__':
+
+     student = students(name='Mufa')
+     student.say_hello()
+     student = students(name='Zidan')
+     student.say_hello()
+
+     
 
